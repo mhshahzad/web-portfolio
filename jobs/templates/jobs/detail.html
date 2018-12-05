@@ -1,41 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load static %}
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>{{ job.summary }}</title>
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/portfolio-item.css' %}" rel="stylesheet">
+</head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<body class = "bg-light">
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{% static 'css/portfolio-item.css' %}" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <!-- Page Content -->
-    <div class="container">
-
-      <!-- Portfolio Item Heading -->
-      <h1 class="my-4">{{ job.summary }}</h1>
-
-      <!-- Portfolio Item Row -->
-      <div class="row">
-
-        <div class="col-md-7">
-          <img src="{{ job.image.url }}" height="400">
-        </div>
-
-        <div class="col-md-5">
-          <p> <a href="{% url 'home' %}" class="btn btn-primary my-2"><-Back</a></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+  <div class="container">
+    <h1 class="my-4">{{ job.summary }}</h1>
+    <div class="row">
+      <div class="col-md-7">
+        <img src="{{ job.image.url }}" height="400" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="col-md-5">
+        <p> <a href="{% url 'home' %}" class="btn btn-primary my-2">Back</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+          Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
+          Mauris ultricies, justo eu convallis placerat, felis enim.</p>
           <ul>
             <li>Lorem Ipsum</li>
             <li>Dolor Sit Amet</li>
@@ -43,29 +32,19 @@
             <li>Adipiscing Elit</li>
           </ul>
         </div>
-
       </div>
-      <!-- /.row -->
-
-      <!-- /.row -->
-
     </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
+    
     <hr> </hr>
-  <footer class="text-muted">
-    <div class="container">
+    <footer class="text-muted">
+      <div class="container">
+        <p>Donec non felis pellentesque, posuere risus sit amet, tincidunt ante. Cras cursus lacinia tristique.</p>
+        <p>Donec ullamcorper purus vel lorem commodo, id faucibus metus pharetra.</p>
+      </div>
+    </footer>
 
-      <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-      <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-    </div>
-  </footer>
-      <!-- /.container -->
-
-    <!-- Bootstrap core JavaScript -->
     <script src="{% static 'jquery.min.js' %}"></script>
     <script src="{% static 'bootstrap.bundle.min.js' %}"></script>
 
   </body>
-</html>
+  </html>
