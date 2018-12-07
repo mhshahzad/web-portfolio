@@ -33,7 +33,7 @@
           <div class="col-md-4">
             <a href="{% url 'detail' job.id %}">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{{ job.image.url }}">
+                <img class="card-img-top" src="{{ job.image.url }}" onerror = "this.src ='http://www.publicdomainfiles.com/images/missing.png'">
                 <div class="card-body">
                   <p class="card-text"> {{ job.summary }}</p>
                 </div>

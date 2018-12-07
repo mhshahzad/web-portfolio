@@ -17,7 +17,7 @@
     <h1 class="my-4">{{ job.summary }}</h1>
     <div class="row">
       <div class="col-md-7">
-        <img src="{{ job.image.url }}" height="400" class="img-fluid" alt="Responsive image">
+        <img src="{{ job.image.url }}" height="400" class="img-fluid" onerror = "this.src ='http://www.publicdomainfiles.com/images/missing.png'">
       </div>
       <div class="col-md-5">
         <p> <a href="{% url 'home' %}" class="btn btn-primary my-2">Back</a></p>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    
+
     <hr> </hr>
     <footer class="text-muted">
       <div class="container">
