@@ -1,19 +1,21 @@
-# Portfolio Website
+# Portfolio 
+> A simple django website
 
-## Description
+<img src="screenshot.png" alt="logo" width="400"/>
 
-This project is about a portfolio website. The front-end is a  
-modified bootstrap template and on back-end, Django and Postgresql is 
-used.  
+#### Demo : https://web-portfolio-django.herokuapp.com
 
-The main page shows posts and clicking on one shows details of it.
+#### Built with (but not limited to):
+- [Django](https://github.com/django/django)
+- [PostgreSQL](hhttps://www.postgresql.org/)
+- [Bootstrap](https://github.com/twbs/bootstrap)
 
-The app can be accessed through:
-```
-https://web-portfolio-django.herokuapp.com
-```
+## Setup
 
-## Implementation
+1. `git clone git@github.com:muhammadh-s/web-portfolio.git`
+2. `cd web-portfolio`
+3. `python manage.py runserver`
 
-This project is built using Django 2.1, Postgresql 11.1 and Bootstrap 
-4.1.3
+## License
+MIT
+
