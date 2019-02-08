@@ -1,7 +1,7 @@
 # Portfolio 
 > A simple django website
 
-<img class = "allSides" src="screenshot.png" alt="logo" width="500"/>
+<img src="screenshot.png" alt="logo"/>
 
 #### Demo : https://web-portfolio-django.herokuapp.com
 
@@ -20,5 +20,3 @@
 
 ## License
 MIT
-
-<style> .allSides { border: solid 1px #555; background-color: #eed; box-shadow: 0 0 10px rgba(0,0,0,0.6); -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6); -o-box-shadow: 0 0 10px rgba(0,0,0,0.6); } </style>
