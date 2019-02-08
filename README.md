@@ -14,7 +14,9 @@
 
 1. `git clone git@github.com:muhammadh-s/web-portfolio.git`
 2. `cd web-portfolio`
-3. `python manage.py runserver`
+3. `pip install -r requirements.txt`  
+   _or place virtual environment and then install_
+4. `python manage.py runserver`
 
 ## License
 MIT
