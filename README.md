@@ -7,7 +7,7 @@
 
 #### Built with (but not limited to):
 - [Django](https://github.com/django/django)
-- [PostgreSQL](hhttps://www.postgresql.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 - [Bootstrap](https://github.com/twbs/bootstrap)
 
 ## Setup
