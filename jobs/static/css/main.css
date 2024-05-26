@@ -1,0 +1,8 @@
+.card-img {
+    max-height: 200px;  /* Set the maximum height you want for your images */
+    width: auto;  /* Maintain the aspect ratio of the images */
+    object-fit: cover;  /* Cover the whole area of the image */
+}
+form textarea {
+    width: 100%;
+}
