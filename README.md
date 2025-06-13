@@ -5,19 +5,11 @@
 ### Table of Contents
 
 - [Portfolio Website](#portfolio-website)
-    - [Screenshots](#screenshots)
     - [Description](#description)
+    - [Screenshots](#screenshots)
     - [Features](#features)
     - [Setup](#setup)
     - [License](#license)
-
-### Screenshots
-
-- Main Page
-<img src="main.png" alt="main page"/>
-
-- Project Details
-<img src="page.png" alt="project details"/>
 
 ### Description
 
@@ -25,6 +17,14 @@ This is a simple portfolio website built with Django.
 It is a responsive website that displays a list of projects and their details.
 The website also has a contact form that allows users to send messages to the website owner.
 The website is built with Django, Bootstrap, and other Django packages.
+
+### Screenshots
+
+- Main Page
+  <img src="main.png" alt="main page"/>
+
+- Project Details
+  <img src="page.png" alt="project details"/>
 
 ### Features
 
